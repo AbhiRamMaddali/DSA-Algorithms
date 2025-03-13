@@ -1,6 +1,6 @@
 def binary(arr,x):
   st=0
-  l=arr.size()
+  l=len(arr)
   while(st<=l):
     mid=(st+l)/2
     if(x>arr[mid]):
